@@ -13,8 +13,8 @@ This repository provides a modular Ansible-based system initialization framework
 
 | Distribution | Playbook                  | Description                                  |
 |--------------|---------------------------|----------------------------------------------|
-| Debian       | `playbooks/debian.yml`    | Installs and enables `unattended-upgrades`   |
-| Ubuntu       | `playbooks/ubuntu.yml`    | Enables automatic updates and base packages  |
+| Debian       | `debian.yml`    | Installs and enables `unattended-upgrades`   |
+| Ubuntu       | `ubuntu.yml`    | Enables automatic updates and base packages  |
 
 ## 📁 Repository Structure
 
