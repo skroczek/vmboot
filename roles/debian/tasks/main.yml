@@ -12,3 +12,11 @@
       APT::Periodic::Update-Package-Lists "1";
       APT::Periodic::Unattended-Upgrade "1";
     mode: "0644"
+
+- name: Create /hallowelt with static content
+  copy:
+    dest: /hallowelt
+    content: "Hallo Welt\n"
+    owner: root
+    group: root
+    mode: '0644'
