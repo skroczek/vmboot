@@ -1,3 +1,4 @@
+---
 - name: Ensure base packages are installed
   apt:
     name: [curl, vim, btop]
